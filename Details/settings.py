@@ -31,12 +31,14 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'stdetails',
 ]
 
 MIDDLEWARE = [
@@ -51,7 +53,7 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = 'Details.urls'
 
-TEMPLATE_DIR  = os.path.join(BASE_DIR,"vtempalets")
+TEMPLATE_DIR  = os.path.join(BASE_DIR,"tempalets")
 
 TEMPLATES = [
     {
