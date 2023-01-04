@@ -30,7 +30,7 @@ ALLOWED_HOSTS = []
 CSRF_TRUSTED_ORIGINS = [
     "http://0.0.0.0",
     "http://localhost",
-    "https://kkek-041405-super-duper-chainsaw-g95xg4vwprgcv7gj-8000.preview.app.github.dev/",
+    "https://kkek-041405-super-duper-chainsaw-g95xg4vwprgcv7gj-8000.preview.app.github.dev",
 ]
 
 
